@@ -127,7 +127,7 @@ def fetch_and_process_reviews(app_id, num_reviews):
     return df
 
 # --- Streamlit UI ---
-st.title("Google Play Review Sentiment Predictor")
+st.title("Google App Review Sentiment Predictor with Real-Time Scraping by Orie Cynthia(Mrs)")
 
 app_id = st.text_input("Enter Google Play App ID:", value="com.google.android.apps.maps")
 num_reviews = st.slider("Number of reviews to fetch", min_value=10, max_value=200, value=50, step=10)
